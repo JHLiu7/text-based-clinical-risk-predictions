@@ -22,7 +22,7 @@ def main():
     tcol = 'text_by_day1'
 
     def retrieve_notes(ids):
-        notes = note_df[note_df['ROW_ID'].isin(ids)]['TEXT'].drop_duplicates().tolist()
+        notes = note_df[note_df['ROW_ID'].isin(ids)]['TEXT'].tolist()
         return ' '.join([clean(note) for note in notes])
 
     cohort_df[tcol] = cohort_df['NOTE_ROW_ID_BY_DAY1'].apply(
