@@ -1,0 +1,41 @@
+#!/bin/bash
+
+small_models=(
+    "meta-llama/Llama-2-7b-chat-hf"
+    "meta-llama/Llama-2-13b-chat-hf"
+    "meta-llama/Meta-Llama-3-8B-Instruct"
+    "meta-llama/Meta-Llama-3.1-8B-Instruct"
+    "meta-llama/Llama-3.2-1B-Instruct"
+    "meta-llama/Llama-3.2-3B-Instruct"
+    "Qwen/Qwen2-7B-Instruct"
+    "Qwen/Qwen2.5-0.5B-Instruct"
+    "Qwen/Qwen2.5-1.5B-Instruct"
+    "Qwen/Qwen2.5-3B-Instruct"
+    "Qwen/Qwen2.5-7B-Instruct"
+    "Qwen/Qwen2.5-14B-Instruct"
+    "mistralai/Mistral-7B-Instruct-v0.2"
+    "mistralai/Mistral-7B-Instruct-v0.3"
+    "microsoft/Phi-3-mini-128k-instruct"
+    "microsoft/Phi-3-medium-128k-instruct"
+    "microsoft/phi-4"
+    "google/gemma-1.1-2b-it"
+    "google/gemma-1.1-7b-it"
+    "google/gemma-2-2b-it"
+    "google/gemma-2-9b-it"
+    "aaditya/Llama3-OpenBioLLM-8B"
+    "medalpaca/medalpaca-7b"
+    "epfl-llm/meditron-7b"
+    "TsinghuaC3I/Llama-3-8B-UltraMedical"
+)
+
+large_models=(
+    "meta-llama/Llama-2-70b-chat-hf"
+    "meta-llama/Meta-Llama-3-70B-Instruct"
+    "meta-llama/Meta-Llama-3.1-70B-Instruct"
+    "meta-llama/Llama-3.3-70B-Instruct"
+    "Qwen/Qwen2-72B-Instruct"
+    "Qwen/Qwen2.5-72B-Instruct"
+    "neuralmagic/Mixtral-8x7B-Instruct-v0.1-FP8"
+    "google/gemma-2-27b-it"
+    "TsinghuaC3I/Llama-3-70B-UltraMedical"
+)
